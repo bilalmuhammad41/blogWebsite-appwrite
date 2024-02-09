@@ -68,6 +68,7 @@ const Login = () => {
 
                 <Input 
                 label = 'Password: '
+                type = 'password'
                 placeholder = 'Enter password'
                 {...register('password', {
                   required: true,
