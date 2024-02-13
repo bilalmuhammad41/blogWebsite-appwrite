@@ -4,6 +4,7 @@ import Container from './Container/Container'
 import Logo from './Logo'
 import Input from './Input'
 import Button from './Button'
+import RTE from './RTE'
 
 export {
   Footer,
@@ -12,4 +13,5 @@ export {
   Logo,
   Button,
   Input,
+  RTE,
 }

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import authService from '../appwrite/auth'
-import { UseSelector, useSelector } from 'react-redux'
+import {useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
 const Protected = ({children, authentication = true}) => {
