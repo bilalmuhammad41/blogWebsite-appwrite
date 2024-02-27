@@ -1,6 +1,6 @@
-import { Container } from 'postcss'
+import { Container, LogoutBtn } from '../index'
 import React from 'react'
-import { UseSelector, useSelector } from 'react-redux'
+import {useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import {Logo} from '../Logo'
 import LogoutBtn from './LogoutBtn'

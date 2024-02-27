@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import authService from '../../appwrite/auth'
+import {logout} from '../../store/authSlice'
 
 const LogoutBtn = () => {
 
@@ -8,7 +9,7 @@ const LogoutBtn = () => {
 
   const logoutHandler = ()=>{
     authService.logout()
-    .then((response)=>{
+    .then(()=>{
       dispatch(logout())
     })
   }
